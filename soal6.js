@@ -4,10 +4,11 @@ $high = 15;
 
 $result = [];
 
-foreach ($array as $key => $value) {
+foreach($array);
+{
   if ($value >= $low && $value <= $high) {
-    $result[] = $value;
+    $result[''] = $value;
   }
 }
 
-var_dump ($result);
+var_dump($result);
